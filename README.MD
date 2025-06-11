@@ -16,6 +16,7 @@ This project is a Java-based Selenium test automation framework following the **
 ---
 
 ## 📁 Project Structure
+```text
 /project-root
 │
 ├── src/
@@ -119,11 +120,11 @@ This project is a Java-based Selenium test automation framework following the **
 ```bash
 mvn clean install
 
-### 2. Run All tests
+### **2. Run All tests**
 mvn test
 
-### 3. Run specific suite
+### **3. Run specific suite**
 mvn test -P ProfileNameFromPom (eg: mvn test -P Purchase)
 
-### 4. To run cucumber tests
+### **4. To run cucumber tests**
 mvn test -P CucumberTests
